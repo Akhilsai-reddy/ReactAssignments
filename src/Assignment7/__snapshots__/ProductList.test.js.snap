@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering ProductsList rendering ProductList 1`] = `
+<ProductList
+  Products={
+    Array [
+      Object {
+        "ID": 1,
+        "Price": "$200",
+        "Product_Name": "MOTO",
+        "Quantity": 3,
+      },
+      Object {
+        "ID": 2,
+        "Price": "$290",
+        "Product_Name": "REDMI",
+        "Quantity": 4,
+      },
+      Object {
+        "ID": 3,
+        "Price": "$260",
+        "Product_Name": "SONY",
+        "Quantity": 6,
+      },
+    ]
+  }
+>
+  <table
+    border={2}
+  >
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          PRODUCT NAME
+        </th>
+        <th>
+          QUANTITY
+        </th>
+        <th>
+          PRICE
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <Product
+        ID={1}
+        Name="MOTO"
+        Price="$200"
+        Quantity={3}
+        key="0"
+      >
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            MOTO
+          </td>
+          <td>
+            3
+          </td>
+          <td>
+            $200
+          </td>
+        </tr>
+      </Product>
+      <Product
+        ID={2}
+        Name="REDMI"
+        Price="$290"
+        Quantity={4}
+        key="1"
+      >
+        <tr>
+          <td>
+            2
+          </td>
+          <td>
+            REDMI
+          </td>
+          <td>
+            4
+          </td>
+          <td>
+            $290
+          </td>
+        </tr>
+      </Product>
+      <Product
+        ID={3}
+        Name="SONY"
+        Price="$260"
+        Quantity={6}
+        key="2"
+      >
+        <tr>
+          <td>
+            3
+          </td>
+          <td>
+            SONY
+          </td>
+          <td>
+            6
+          </td>
+          <td>
+            $260
+          </td>
+        </tr>
+      </Product>
+    </tbody>
+  </table>
+</ProductList>
+`;

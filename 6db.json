@@ -1,0 +1,22 @@
+{
+    "Products": [
+      {
+        "id": 1,
+        "Product_Name": "EarPods",
+        "Quantity": 2,
+        "Price": "200"
+      },
+      {
+        "id": 2,
+        "Product_Name": "REDMI",
+        "Quantity": 1,
+        "Price": "400"
+      },
+      {
+        "id": 3,
+        "Product_Name": "Watch",
+        "Quantity": 3,
+        "Price": "360"
+      }
+    ]
+  }

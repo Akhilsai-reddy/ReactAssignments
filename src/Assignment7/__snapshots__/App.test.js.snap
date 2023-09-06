@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering App testing App 1`] = `
+<App>
+  <div>
+    <AllProductsPage>
+      <div>
+        <h1>
+          Products List
+        </h1>
+        <ProductList
+          Products={
+            Array [
+              Object {
+                "ID": 1,
+                "Price": "$200",
+                "Product_Name": "MOTO",
+                "Quantity": 3,
+              },
+              Object {
+                "ID": 2,
+                "Price": "$400",
+                "Product_Name": "REDMI",
+                "Quantity": 3,
+              },
+              Object {
+                "ID": 3,
+                "Price": "$360",
+                "Product_Name": "REALME",
+                "Quantity": 3,
+              },
+            ]
+          }
+        >
+          <table
+            border={2}
+          >
+            <thead>
+              <tr>
+                <th>
+                  ID
+                </th>
+                <th>
+                  PRODUCT NAME
+                </th>
+                <th>
+                  QUANTITY
+                </th>
+                <th>
+                  PRICE
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <Product
+                ID={1}
+                Name="MOTO"
+                Price="$200"
+                Quantity={3}
+                key="0"
+              >
+                <tr>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    MOTO
+                  </td>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    $200
+                  </td>
+                </tr>
+              </Product>
+              <Product
+                ID={2}
+                Name="REDMI"
+                Price="$400"
+                Quantity={3}
+                key="1"
+              >
+                <tr>
+                  <td>
+                    2
+                  </td>
+                  <td>
+                    REDMI
+                  </td>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    $400
+                  </td>
+                </tr>
+              </Product>
+              <Product
+                ID={3}
+                Name="REALME"
+                Price="$360"
+                Quantity={3}
+                key="2"
+              >
+                <tr>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    REALME
+                  </td>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    $360
+                  </td>
+                </tr>
+              </Product>
+            </tbody>
+          </table>
+        </ProductList>
+      </div>
+    </AllProductsPage>
+  </div>
+</App>
+`;
